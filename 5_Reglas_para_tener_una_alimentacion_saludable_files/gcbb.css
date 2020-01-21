@@ -1,0 +1,25 @@
+.fl-builder.full-width-content .content,
+.fl-builder.full-width-content .site-inner,
+.fl-builder.no-header-footer .content,
+.fl-builder.header-footer .content,
+.fl-builder.no-header-footer .site-inner,
+.fl-builder.header-footer .site-inner {
+	margin: 0 auto;
+	max-width: none!important;
+	padding: 0;
+	width: 100%;
+}
+
+.no-header-footer .content,
+.header-footer .content {
+	float: none;
+	margin: 0 auto;
+}
+
+.single-fl-builder-template.no-header-footer article.entry,
+.single-fl-builder-template.header-footer article.entry,
+.single-fl-theme-layout.no-header-footer article.entry,
+.single-fl-theme-layout.header-footer article.entry {
+	padding: 0;
+	margin: 0;
+}
